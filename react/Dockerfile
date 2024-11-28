@@ -44,3 +44,8 @@ EXPOSE 5173
 
 # command to run the app
 CMD npm run dev
+
+# docker build -t react .
+# docker run react
+# docker run -p 5173:5173 react
+# docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react
