@@ -1,5 +1,5 @@
 function App() {
-  return <>Hello Docker</>;
+  return <>Hello React</>;
 }
 
 export default App;
