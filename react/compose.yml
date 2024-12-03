@@ -1,0 +1,9 @@
+name: help
+services:
+  dev: 
+    image: akshaypmna18/react
+    build: .
+    ports:
+      - 5173:5173
+    volumes:
+      - ./src:/app/src:ro
